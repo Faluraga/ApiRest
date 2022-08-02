@@ -8,7 +8,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
-{
+{   // funcion para logueo
     public function Login(Request $request ){
 
         $this->validateLogin($request);
